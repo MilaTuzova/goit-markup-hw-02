@@ -171,5 +171,8 @@ li {
 .footer-info-mail,
 .footer-info-tel {
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
 }
