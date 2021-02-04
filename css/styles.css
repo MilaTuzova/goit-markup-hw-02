@@ -4,6 +4,7 @@
     --accent-color: #2196f3;
     --notactiv-color: #757575;
     --primary-white-color: #ffffff;
+    --button-color: #f5f4fa;
 }
 
 .visually-hidden {
@@ -44,9 +45,10 @@ li {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     color: var(--primary-text-color);
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .logo-color {
@@ -57,7 +59,13 @@ li {
 .nav-info {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
+    font-style: normal;
+}
+
+.link,
+.link-mail {
+    word-spacing: 2em;
 }
 
 .link:hover,
@@ -79,17 +87,22 @@ li {
 /* главная секция */
 
 .main-info {
+    background-color: #2f303a;
+}
+
+.main-info.title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.3;
-    background-color: #000000;
+    line-height: 1.2;
     color: var(--primary-white-color);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .main-link {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.2;
     color: var(--primary-white-color);
     background-color: #2196f3;
 }
@@ -105,14 +118,15 @@ li {
 .post {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     color: var(--secont-text-color);
+    text-transform: uppercase;
 }
 
 .post-text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 2;
     color: var(--notactiv-color);
 }
 
@@ -122,22 +136,25 @@ li {
 .cards-section {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     color: var(--secont-text-color);
+    letter-spacing: 0.03em;
 }
 
 .team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     color: var(--secont-text-color);
+    letter-spacing: 0.03em;
 }
 
 .team-name-class {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     color: var(--notactiv-color);
+    letter-spacing: 0.03em;
 }
 
 
@@ -145,15 +162,17 @@ li {
 
 .footer {
     background-color: #2f303a;
+    font-style: normal;
 }
 
 .logo-footer {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     color: var(--primary-white-color);
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .logo-color {
@@ -164,7 +183,7 @@ li {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 2;
     color: var(--primary-white-color);
 }
 
@@ -173,6 +192,39 @@ li {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 2;
     color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+}
+
+
+/* Страница ПОРТФОЛИО */
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+button:hover,
+button:focus {
+    color: var(--primary-white-color);
+    background: var(--accent-color);
+}
+
+.portfolio-card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-card-more {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--notactiv-color);
 }
