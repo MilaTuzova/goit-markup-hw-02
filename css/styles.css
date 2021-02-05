@@ -195,7 +195,7 @@ li {
     font-weight: 400;
     font-size: 14px;
     line-height: 2;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--notactiv-color);
 }
 
 
