@@ -71,11 +71,15 @@ li {
 
 .link:hover,
 .link:focus,
-.link:active,
-.link:current,
+.link.current,
+.link:focus,
 .link-mail:hover,
 .link-mail:focus {
     color: var(--accent-color);
+}
+
+.link:active {
+    color: var(--notactiv-color);
 }
 
 .link-tel {
@@ -190,6 +194,11 @@ li {
     color: var(--primary-white-color);
 }
 
+.footer-info-mail:hover,
+.footer-info-mail:focus {
+    color: var(--accent-color);
+}
+
 .footer-info-mail,
 .footer-info-tel {
     font-style: normal;
@@ -215,6 +224,10 @@ button:hover,
 button:focus {
     color: var(--primary-white-color);
     background: var(--accent-color);
+}
+
+button:active {
+    color: var(--notactiv-color);
 }
 
 .portfolio-card-title {
