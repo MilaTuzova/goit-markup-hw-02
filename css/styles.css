@@ -49,7 +49,6 @@ li {
     font-size: 26px;
     line-height: 1.2;
     color: var(--primary-text-color);
-    text-decoration: none;
 }
 
 .logo-color {
@@ -101,7 +100,7 @@ li {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
-}
+    }
 
 .main-link {
     font-weight: 700;
